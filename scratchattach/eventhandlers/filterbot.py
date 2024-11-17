@@ -100,7 +100,9 @@ class Filterbot(MessageEvents):
 
     def add_genalpha_nonsense_filter(self):
         self.add_filter(HardFilter("(genalpha_nonsene_filter) 'skibidi'", contains="skibidi"))
-        self.add_filter(HardFilter("[genalpha_nonsene_filter) 'rizzler'", contains="rizzler"))
+        self.add_filter(HardFilter("(genalpha_nonsene_filter) 'mew'", contains="mew"))
+        self.add_filter(HardFilter("(genalpha_nonsene_filter) 'sigma'", contains="sigma"))
+        self.add_filter(HardFilter("[genalpha_nonsene_filter) 'rizz'", contains="rizz"))
         self.add_filter(HardFilter("(genalpha_nonsene_filter) 'fanum tax'", contains="fanum tax"))
 
     def on_message(self, message):
